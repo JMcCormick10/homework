@@ -27,6 +27,7 @@ export const TeamMatchup = styled.div`
 export const SeperatorText = styled.p`
     font-size: 12px;
     text-align: center;
+    align-self: ${({alignCenter}) => alignCenter ? `center` : `flex-start`};
 `;
 
 export const TimeText = styled.p`

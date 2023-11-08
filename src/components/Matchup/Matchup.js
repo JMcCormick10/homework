@@ -22,7 +22,7 @@ const Matchup = ({matchup, homeWin}) => {
             <MatchupContainer>
                 <TeamMatchup>
                     <ExpertConsensusCircle percent={matchup.analysis.awayPct} win={!homeWin}/>
-                    <SeperatorText>{constants.copy.expertLabel}</SeperatorText>
+                    <SeperatorText alignCenter>{constants.copy.expertLabel}</SeperatorText>
                     <ExpertConsensusCircle percent={matchup.analysis.homePct} win={homeWin}/>
                 </TeamMatchup>
             </MatchupContainer>
